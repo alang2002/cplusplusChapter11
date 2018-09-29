@@ -32,6 +32,8 @@ int main() {
 			else {
 				break;
 			}
+			nextNum = numbers[z + 1];
+			currentNum = numbers[z];
 		} /*
 		//Iterate backwards through the array to check greatest to least <-- BACKWARD
 		for (auto w = numbers.rbegin(); w < numbers.rend(); ++w) {

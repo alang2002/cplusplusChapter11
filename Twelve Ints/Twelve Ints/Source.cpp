@@ -16,8 +16,13 @@ int main() {
 		cin >> numbers[i];
 	} //Loop through array and sort numbers, from least to greatest
 	for (int z = 0; z < numbers.size(); z++) {
-		nextNum = numbers[z + 1];
 		currentNum = numbers[z];
+		if (currentNum = numbers[11]) {
+			break;
+		}
+		else {
+			nextNum = numbers[z + 1];
+		}
 
 		//A second for loop to run the current number and check it against all other numbers in the array
 		//Least to greatest --> FORWARD
@@ -32,9 +37,9 @@ int main() {
 			else {
 				break;
 			}
-			nextNum = numbers[z + 1];
-			currentNum = numbers[z];
-		} /*
+			//nextNum = numbers[z + 1];
+			//currentNum = numbers[z];
+		} 
 		//Iterate backwards through the array to check greatest to least <-- BACKWARD
 		for (auto w = numbers.rbegin(); w < numbers.rend(); ++w) {
 			nextNum = numbers[z - 1];
@@ -47,7 +52,7 @@ int main() {
 			else {
 				break;
 			}
-		}*/
+		}
 	} //Print out array.
 	for (int x = 0; x <= numbers.size() - 1; x++) {
 		cout << numbers[x] << endl;

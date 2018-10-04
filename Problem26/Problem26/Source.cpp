@@ -10,18 +10,14 @@ int main()
 
 	double prices[10] = { 10.5, 25.5, 9.75, 6.0, 35.0, 100.4, 10.65, .56, 14.75, 4.78 };
 	double increase = 0.0;
-	double increaseAmount;
-	double currentPrice;
 
 	//update prices
 	cout << "Enter increase percentage (for example, enter 15 for 15%): ";
 	cin >> increase;
-	increase = increase * 0.01;
+	increase = (increase / 100) + 1;
 
 	for (int i = 0; i < size(prices); i++) {
-		increaseAmount = prices[i] * increase;
-		currentPrice = prices[i];
-		prices[i] = currentPrice + increaseAmount;
+		prices[i] = prices[i] * increase;
 	}
 	//end for
 

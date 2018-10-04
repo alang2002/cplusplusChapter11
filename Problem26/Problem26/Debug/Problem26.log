@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\user\desktop\c++\cpluspluschapter11\problem26\problem26\source.cpp(19): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\desktop\c++\cpluspluschapter11\problem26\problem26\source.cpp(25): warning C4018: '<': signed/unsigned mismatch
+  Problem26.vcxproj -> C:\Users\user\Desktop\C++\cplusplusChapter11\Problem26\Debug\Problem26.exe

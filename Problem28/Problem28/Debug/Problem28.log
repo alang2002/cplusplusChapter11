@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\user\desktop\c++\cpluspluschapter11\problem28\problem28\source.cpp(9): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\user\desktop\c++\cpluspluschapter11\problem28\problem28\source.cpp(13): warning C4018: '<': signed/unsigned mismatch
+  Problem28.vcxproj -> C:\Users\user\Desktop\C++\cplusplusChapter11\Problem28\Debug\Problem28.exe
